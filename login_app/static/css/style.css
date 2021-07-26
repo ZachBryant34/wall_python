@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 970px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+.box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box div{
+    display: inline-block;
+}
